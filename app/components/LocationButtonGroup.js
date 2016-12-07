@@ -54,10 +54,6 @@ export default class LocationButtonGroup extends Component {
         duration={300}
         transition={transitionProps}
       >
-        <Image
-          style={[styles.gradient, gradientStyle]}
-          source={require('../images/bottom-gradient-overlay.png')}
-        />
         {locations.map(this.renderItem)}
       </Animatable.View>
     )

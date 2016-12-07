@@ -7,7 +7,7 @@ const transitionProps = ['top', 'height', 'width']
 export default class LocationSearchHeader extends Component {
 
   static defaultProps = {
-    visible: false,
+    visible: true,
   }
 
   render() {
